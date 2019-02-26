@@ -1,3 +1,48 @@
 body {
   font-family: monospace;
+  background-image: linear-gradient(#41b08a,#135865);
+}
+
+h1,h2{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #2b2b2b;
+}
+
+h1:hover {
+  font-size: 150%;
+}
+
+p{
+  font-family: 'Special Elite', cursive;
+  color: #2b2b2b;
+
+}
+
+img{
+  width: 500px;
+}
+
+div.card{
+  padding: 10px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px auto;
+  background-color: white;
+}
+
+div.card:hover{
+  animation-name: color_change;
+  animation-duration: 4s;
+}
+
+@keyframes color_change {
+  0%   {background-color: tomato;}
+  25%  {background-color: orange;}
+  50%  {background-color: DodgerBlue;}
+  100% {background-color: MediumSeaGreen;}
+}
+
+#mimiPhotoContent{
+  color: #135865;
+  font-family: 'Gochi Hand', cursive;
 }
