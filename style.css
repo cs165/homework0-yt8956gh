@@ -8,14 +8,14 @@ h1,h2{
   color: #2b2b2b;
 }
 
-h1:hover {
-  font-size: 150%;
-}
-
 p{
   font-family: 'Special Elite', cursive;
   color: #2b2b2b;
 
+}
+
+p:hover {
+  font-size: 150%;
 }
 
 img{
